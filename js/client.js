@@ -1,4 +1,5 @@
 const socket=io('https://groupchat-qqel.onrender.com');
+// const socket=io('http://localhost:3000');
 
 const form = document.getElementById('send-container');
 const messageInput = document.getElementById('messageInp');
